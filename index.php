@@ -4,7 +4,7 @@ $accessToken = getenv('FB_ACCESS_TOKEN'); // نخلي التوكن متخزن ف
 $pageId = getenv("FB_PAGE_ID");
 
 // مصفوفة أحاديث
-$hadith = include "ahadith.php";
+$ahadith = include "ahadith.php";
 
 $hadith = $ahadith[array_rand($ahadith)];
 
